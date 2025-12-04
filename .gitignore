@@ -1,0 +1,21 @@
+# ---- Env & secrets ----
+.env
+backend/.env
+frontend/.env.local
+
+# ---- Python / FastAPI backend ----
+backend/.venv/
+**/__pycache__/
+**/*.py[cod]
+
+# SQLite DB
+clinic_inbox.db
+
+# ---- Node / Next.js frontend ----
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+
+# ---- Others ----
+dist/
+.DS_Store
